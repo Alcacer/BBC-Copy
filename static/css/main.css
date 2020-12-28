@@ -1,0 +1,234 @@
+		
+
+body {
+	margin:0;
+	font-family: Helvetica,Arial,freesans,sans-serif;
+}
+#topbar {
+	width:100%;
+	height: 40px;
+}
+.fixedwidth {
+	width:1300px;
+	margin: 0 auto;
+}
+#bbclogo {
+	padding:7px 14px 4px 17px;
+	border-right: 1px solid #E1E4D6;
+	float:left;
+}
+#signin {
+	float:left;
+	font-size:0.8em;
+	border-right: 1px solid #E1E4D6;
+	font-weight: bold;
+	padding:2px 90px 11px 11px;
+}
+#signin img {
+	padding-right:3px;
+	position: relative;
+	top:7px;
+}
+#signin a {
+	color:black;
+}
+#topbarmenu {
+	float:left;
+}
+#topbarmenu ul{
+	margin:0;
+	padding:0;
+}
+#topbarmenu li{
+	list-style:none;
+	font-weight:bold;
+	font-size:0.8em;
+	padding:13px 20.5px;
+	border-right:1px solid #E1E4D6;
+	float:left;
+}
+#more {
+	width:95px;
+	background-image: url("images/drop.PNG");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#topbarmenu a {
+	color:black;
+}
+#searchbox {
+	float:left;
+	padding:8px 0 0 18px;
+}
+#searchbox input{
+	border:0;
+	color:#333;
+	background-color:#DCE3E0;
+	width:145px;
+	font-weight:bold;
+	height:1.6em;
+	padding-left:5px;
+}
+#submitbutton {
+	float:left;
+	position: relative;
+	top:8px;
+	height:23px;
+	background-color:#DCE3E0;
+}
+#submitbutton input {
+	background-image:url("images/magnifier.PNG");
+	background-repeat: no-repeat;
+	background-position: center;
+	width:28px;
+	height:23px;
+	border:0;
+	background-color:#DCE3E0;
+	pointer-events: auto;
+}
+#secondbar {
+	height:93px;
+	background-color:#bb1919;
+}
+#secondbar h1{
+	margin:0;
+	color: white;
+	font-weight:normal;
+	font-size:2.5em;
+	font-family: Reithsans, Verdana, Helvetica, Arial, sans-serif;
+	padding:5px 0 0 18px;
+}
+#secondbarmenu ul {
+	margin:0;
+	padding:0;
+	float:bottom;
+	padding-left:10px;
+	padding-top:12px;
+}
+#secondbarmenu li {
+	list-style:none;
+	float:left;
+	padding:0 11px 0 11px;
+	font-size:90%;
+	border-right:1px solid #bb454f;
+}
+.break {
+	clear:both;
+}
+a {
+	text-decoration:none;
+	color:white;
+}
+a:hover {
+	text-decoration: underline;
+}
+#first {
+	float:left;
+	width:250px;
+	position: relative;
+	left:18px;
+	letter-spacing: -.0625rem;
+}
+
+#first h1 {
+	font-size:1.75em;
+	color:black;
+}
+#first p {
+	font-size:14px;
+	position:relative;
+	top:-10px;
+	line-height:18px;
+	color:#2B3232;
+	width:235px;
+	letter-spacing: 0rem;
+	
+}
+#first li{
+	color:black;
+}
+#newsline img {
+	padding:16px 0 0 17px;
+	float:left;
+}
+#newsline a {
+	color:black;
+}
+#newsline a:hover h1{
+	text-decoration: underline;
+	color:#458298;
+}
+
+.time {
+	font-size:13px;
+	color: #2B3232;
+	background-image: url("images/miniclock.PNG");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left:23px;
+	margin-left:23px;
+	margin-top:0;
+	float:left;
+
+}
+.time a{
+	border-left: 1px #E1E4D6 solid !important;
+	padding-left:6px !important;
+}
+.time a:hover{
+	color: #458298 !important;
+}
+#second {
+	float:left;
+	width: 247px;
+	padding-right:2px;
+
+}
+#third {
+	float:left;
+	width:240px;
+}
+#common p {
+	color:#2B3232;
+	font-size:14px;	
+	line-height:18px;
+	letter-spacing: 0rem;
+	padding-left:17px;
+}
+#common h4 {
+	padding-left:17px;
+	position: relative;
+	top:7px;
+	line-height:21px; 
+	margin:0;
+}
+#common a:hover h4{
+	text-decoration: underline;
+	color:#458298;
+}
+#last {
+	padding-left:70px;
+	margin-top: 10px;
+}
+
+#last li{
+	float:left;
+	padding-right:30px;
+	font-weight:bold;
+	font-size: 13px;
+	width:220px;
+	color:black;
+	list-style-image: url("images/point.PNG");
+}
+
+#last a{
+	color:black;
+}
+#last a:hover{
+	color:#458298;
+}
+
+.divwidth {
+	width:252px;
+	float:left;
+}
